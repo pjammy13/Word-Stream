@@ -1,0 +1,353 @@
+/************* All Styles *************/
+
+* {
+	margin: 0;
+	padding: 0;
+	/*outline: red dotted 1px;*/
+	font-family: "Arial", sans-serif;
+}
+	
+
+/************* Div Class Styles *************/
+div.container {
+	width: 970px;
+	min-height: 200px;
+	margin: 0 auto;
+}
+
+div.top {
+	width: 100%;
+	min-height: 200px;
+	padding: 20px 0 0 0;
+}
+
+div.left-column {
+	width: 30%;
+	min-height: 500px;
+	display: inline-block;
+	vertical-align: top;
+	margin: -40px 20px 0 10px;
+}
+
+div.right-column{
+	width: 65%;
+	min-height: 200px;
+	display: inline-block;
+	vertical-align: top;
+	margin-top: -40px;
+}
+
+/************* Top Class Styles *************/
+
+	/************* Logo Styles *************/
+div.logo {
+	display: inline-block;
+	width: 30%;
+}
+
+	div.logo img {
+		display: inline-block;
+	}
+
+	div.logo p {
+		display: inline-block;
+		vertical-align: top;
+		margin-top: 20px;
+	}
+
+	span.logo-grey {
+		color: grey;
+		font-weight: bold;
+	}
+
+	span.logo-blue {
+		color:blue;
+		font-weight: bold;
+	}
+
+	/************* Nav-Bar Styles *************/
+div.nav-bar-login {
+	display: inline-block;
+	width: 65%;
+	vertical-align: top;
+	margin: -15px 0px 0px 40px;
+}
+
+	ul.nav-bar {
+		display: inline-block;
+		width: 75%;
+		background-color: LightGrey;
+		padding: 10px;
+		border-radius: 5px;
+		border: grey solid 1px;
+		text-align: center;
+	}
+
+	ul.nav-bar li {
+		list-style-type: none;
+		display: inline-block;
+		margin-right: 5px;
+		padding-right: 5px;
+		border-right: DarkGrey solid 1px;
+	}
+
+	ul.nav-bar li:last-child {
+		border-right: none;
+	}
+
+	ul.nav-bar a {
+		color: grey;
+	}
+
+	button.login-button {
+		display: inline-block;
+		text-align: center;
+		width: 126px;
+		border-radius: 5px;
+		background-color: blue;
+		background: linear-gradient(180deg, LightBlue, blue);
+		color: white;
+		padding: 10px 0 10px 0;
+	}
+	/************* WordStream bar Styles *************/
+
+div.top h1 {
+	background-color: blue;
+	color: white;
+	padding: 15px;
+	text-align: left;
+}
+
+
+/************* left-column Styles *************/
+
+	/************* Action class styles *************/
+
+div.action {
+	width: 100%;
+	min-height: 45%;
+}
+
+	div.action a {
+		color: blue;
+	}
+
+	div.action p:last-child {
+		text-align: center;
+	}
+
+
+	p.blue-action {
+		color: blue;
+		margin-bottom: 20px;
+		font-size: 25px;
+	}
+
+	p.red-action {
+		color: red;
+	}
+
+	button.schedule-demo-button {
+		display: inline-block;
+		width: 100%;
+		background-color: blue;
+		color: white;
+		font-weight: 900;
+		border-radius: 5px;
+		margin: 5px 0px 5px 0px;
+		padding: 10px;
+	}
+
+	button.free-trial-button {
+		display: inline-block;
+		width: 100%;
+		background-color: orange;
+		color: white;
+		font-weight: 900;
+		border-radius: 5px;
+		margin: 5px 0px 5px 0px;
+		padding: 10px;
+	}
+
+	/************* Ad-content styles *************/
+
+div.ad-content {
+	background-image: url("images/left_content_ad.png");
+	background-repeat: no-repeat;
+	width: 198px;
+	height: 241px;
+	margin: 20px auto 0px auto;
+}
+
+	div.ad-content h2 {
+		color: blue;
+		font-size: 17px;
+		font-weight: bold;
+		margin: 10px 0 10px 10px;
+		vertical-align: top;
+	}
+
+	div.ad-content p {
+		font-weight: bold;
+		font-size: 13px;
+		margin: 0px 0px 10px 10px;
+		color: grey;
+	}
+
+	.get-graded-button {
+		background-color: DarkBlue;
+		color: white;
+		border-radius: 5px;
+		width: 90%;
+		padding: 5px;
+		margin-left: 10px;
+	}
+/************* right-column Styles *************/
+
+	/************* directory-phone styles *************/
+
+
+
+		/************* ppc-home styles *************/
+
+div.ppc-home {
+	display: inline-block;
+	vertical-align: top;
+}
+
+	div.ppc-home img {
+		display: inline-block;
+	}
+
+	div.ppc-home p {
+		display: inline-block;
+		width: 33px;
+		vertical-align: top;
+		font-size: 12px;
+		margin-top: 5px;
+	}
+
+
+		/************* phone-and-time styles *************/
+div.directory-phone {
+	display: inline-block;
+	width: 100%;
+	text-align: right;
+	vertical-align: top;
+}
+
+	div.directory-phone img:nth-of-type(1) {
+		display: inline-block;
+		vertical-align: top;
+	}
+
+	div.directory-phone p:nth-of-type(1) {
+		display: inline-block;
+		vertical-align: top;
+	}
+
+	div.directory-phone img:nth-of-type(2) {
+		display: inline-block;
+		vertical-align: top;
+		margin-left: 300px;
+	}
+
+	div.phone-and-time {
+		width: 220px;
+		display: inline-block;
+		text-align: center;
+
+	}
+	div.phone-and-time p {
+		display: inline-block;
+		vertical-align: top;
+		color: grey;
+	}
+
+	div.phone-and-time p:nth-of-type(2) {
+		color: blue;
+		font-size: 30px;
+		font-weight: bold;
+		
+	}
+
+	/************* main-content styles *************/
+div.main-content {
+
+}
+
+	div.main-content h2 {
+		color: blue;
+		font-size: 22px;
+		margin: 10px 0px 10px 0px;
+	}
+
+	div.main-content p {
+		margin: 10px 0px 10px 0px;
+
+	}
+
+	div.main-content ul {
+		list-style-type: square;
+	}
+
+	div.main-content ul > li{
+		color: blue;
+		margin: 10px 0px 10px 30px;
+	}
+
+	div.main-content ul > li > span{
+		color: black;
+	}
+
+	div.main-content a {
+		color: blue;
+	}
+
+	span.bold {
+		font-weight: bold;
+	}
+
+	/************* free-trial styles *************/
+
+div.free-trial {
+	outline: blue solid 3px;
+	margin: 20px 0 20px 0;
+}
+
+	div.free-trial img {
+		display: inline-block;
+	}
+
+	div.free-trial p {
+		display: inline-block;
+		width: 90%;
+	}
+
+	div.free-trial-text {
+		display: inline-block;
+		width: 90%;
+	}
+
+		div.free-trial-text h2{
+			width: 90%;
+			font-size: 20px;
+			color: blue;
+			font-weight: bold;
+			vertical-align: top;
+		}
+
+		button.get-started-button {
+			border-radius: 5px;
+			padding: 10px;
+			color: white;
+			background: linear-gradient(180deg, LightGreen, green 50%, LightGreen);
+			margin-left: 60px;
+		}
+
+
+
+	div.right-column h3 {
+		color: blue;
+		margin-bottom: 10px;
+	}
